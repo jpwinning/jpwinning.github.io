@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* Navigation Bar */
+.nav_bar {
+	height: 100px;
+	width: auto;
+	border-bottom: 1.5px solid #4A4A4A;
+}
+
+.nav_icon {
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.nav_pro {
+	float: left;
+	margin-top: 25px;
+	padding: 10px;
+}
+
+.nav_pro_icon {
+	height: 25px;
+	width: 25px;
+	padding: 0px 15px 0px 15px;
+}
+
+.nav_links {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.2em;
+	letter-spacing: 2px;
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+	float: right;
+	margin-top: 5px;
+	padding: 30px 20px 30px 20px;
+	position: relative;
+}
+
+/*Intro Section*/
+
+.intro {
+	height: 800px;
+	width: auto;
+	text-align:center;
+	background-image: url("../images/intro_bg_lr.jpg");
+}
+
+.intro_content {
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: white;
+	padding-top: 300px;
+}
+
+/*About Brand*/
+
+.about_brand {
+	background-color:#011A1A;
+	color: white;
+	padding: 175px;
+	overflow: auto;
+}
+
+.brand_left {
+	display: block;
+	width: 50%;
+	float: left;
+}
+
+.brand_right {
+	display: block;
+	width: 50%;
+	float: right;
+}
+
+.brand_right img {
+	position: relative;
+	margin-left: 100px;
+}
+
+/*About Me*/
+.about_me {
+	padding: 150px;
+	overflow: auto;
+}
+
+.me_left {
+	display: block;
+	width: 50%;
+	float: left;
+}
+
+.me_left img {
+	width: 500px;
+	border-radius: 50%;
+	margin-left: 50px;
+	position: relative;
+}
+
+.me_right {
+	display: block;
+	width: 50%;
+	float: right;
+	margin-top: 50px;
+	position: relative;
+}
+
+/*Portfolio*/
+
+.port_container div {
+	float: left;
+	overflow: auto;
+}
+
+/*Links*/
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.nav_links a:hover {
+	background: rgba(0,0,0,0);
+	background-color: black;
+	color:white;
+	box-shadow: inset 0 0 0 3px black;
+}
